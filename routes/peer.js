@@ -2,7 +2,6 @@ var express = require('express');
 var router = express.Router();
 var uuid = require('uuid/v1');
 var con = require('../mariadbcon/connection');
-var dateTime = require('../helpers/datetime');
 
 /* GET users listing. */
 router.post('/', function(req, res, next) {
